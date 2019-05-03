@@ -30,7 +30,7 @@ spec:
         app: nginx
     spec:
       securityContext: 
-        supplementalGroups: 5555
+        supplementalGroups: [5555]
       containers:
       - name: nginx
         securityContext:
